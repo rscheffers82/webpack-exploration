@@ -1,0 +1,5 @@
+img {
+  display: flex;
+  align-items: center;
+  border: 10px solid #777;
+}

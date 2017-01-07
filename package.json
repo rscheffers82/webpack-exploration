@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
-  "author": "",
+  "author": "Roy Scheffers",
   "license": "ISC",
-  "dependencies": {
-    "webpack": "^1.14.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
-    "babel-preset-env": "^1.1.6"
+    "babel-preset-env": "^1.1.6",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.0-rc.0"
   }
 }
