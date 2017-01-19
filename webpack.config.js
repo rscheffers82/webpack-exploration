@@ -30,11 +30,12 @@ const config = {
       },
       {
         // use: ['style-loader', 'css-loader'],
-        loader: ExtractTextPlugin.extract({
-          loader: 'css-loader'
-        }),
-        test: /\.css$/
-      },
+      //   loader: ExtractTextPlugin.extract({
+      //     loader: 'css-loader'
+      //   }),
+      //   test: /\.css$/
+      // },
+        test: /\.less$/, loader: "style-loader!css-loader!less-loader" },
       {
         test: /\.(jpe?g|png|gif|svg)$/,
         use: [

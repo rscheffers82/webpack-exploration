@@ -2,9 +2,11 @@ body {
   display: flex;
   margin: 0;
   height: 100%;
+  background-color: #778;
 }
 
 img {
+  paddng: 5px;
   margin: auto;
   border: 5px double #779;
 }
