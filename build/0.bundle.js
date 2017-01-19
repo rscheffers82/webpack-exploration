@@ -98,7 +98,7 @@ exports = module.exports = __webpack_require__(2)();
 
 
 // module
-exports.push([module.i, "body {\n  display: flex;\n  margin: 0;\n  height: 50%;\n  background-color: #fafafc;\n}\nimg {\n  paddng: 5px;\n  margin: 20px;\n  border: 5px double #ff3333;\n}\n", ""]);
+exports.push([module.i, "body {\n  display: flex;\n  margin: 0;\n  height: 50%;\n  background-color: #fafafc;\n}\nbody img {\n  padding: 5px;\n  margin: 20px;\n  border: 5px double #ff3333;\n}\n", ""]);
 
 // exports
 
